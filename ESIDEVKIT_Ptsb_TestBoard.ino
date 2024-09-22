@@ -92,7 +92,7 @@ void loop() {
 //------sensor LDR -------------------------------------------------------
   dataLDR = analogRead(sensorLDR);
   Serial.print("Cahaya: ");
-  Serial.print(dataLDR);   
+  Serial.println(dataLDR);   
 
 //------Kawalan relay -------------------------------------------------------  
   digitalWrite(relay02,HIGH);
