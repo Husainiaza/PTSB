@@ -71,7 +71,7 @@ if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { // Address 0x3D for 128x64
   display.setCursor(10,20);
   display.println("Kursus IoT MQTT");
   display.display();
-  delay(2000);
+  delay(5000);
 
 }
 
@@ -113,6 +113,13 @@ void loop() {
   delay (100);
 
 //------Paparan di OLED Display--------------------------------------------------  
+  display.clearDisplay();
+  display.setCursor(0,0);
+  display.println("  Politeknik Tuanku  ");
+  display.setCursor(0,10);
+  display.println("  Sultanah Bahiyah  ");
+  display.setCursor(10,20);
+  display.println("Kursus IoT MQTT");
   display.setCursor(0,30);
   display.print("BACAAN SUHU :");
   display.print(tempC,1);
