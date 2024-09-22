@@ -1,4 +1,4 @@
-//-----Seksyen 1 - Senarai Libari yang diperlukan---------------------- ----
+//----Seksyen 1 - Senarai Libari yang diperlukan ( HEADER)------------- ----
 //--------------------------------------------------------------------------
 #include <Wire.h>
 #include <SPI.h>
