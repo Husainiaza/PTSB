@@ -1,4 +1,4 @@
-//----Seksyen 1 - Senarai Library yang diperlukan ( HEADER)------------- ----
+//----Seksyen 1 - Senarai HEADER (Library) yang diperlukan------------- ----
 //--------------------------------------------------------------------------
 #include <Wire.h>
 #include <SPI.h>
