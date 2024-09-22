@@ -1,4 +1,4 @@
-//----Seksyen 1 - Senarai Libari yang diperlukan ( HEADER)------------- ----
+//----Seksyen 1 - Senarai Library yang diperlukan ( HEADER)------------- ----
 //--------------------------------------------------------------------------
 #include <Wire.h>
 #include <SPI.h>
